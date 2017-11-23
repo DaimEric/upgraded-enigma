@@ -1,0 +1,5 @@
+surname = input("Please enter your surname ")
+House_Num = int(input("Please Enter your House Number "))
+Rd_Name = input("Please Enter your Road Name ")
+Town = input("Please enter your Town or City name ")
+print ("Mr and Mrs " + surname + '\n', str(House_Num), Rd_Name + '\n', Town, sep=',')
